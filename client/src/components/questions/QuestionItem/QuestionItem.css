@@ -1,0 +1,142 @@
+.question-item-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex: 1 1;
+    margin-top: 1rem;
+    justify-content: space-around;
+}
+
+.fa-arrow-up {
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.fa-arrow-up:hover {
+    transform: translate(-0rem, -.5rem) scale(1.15, 1.15);
+    box-shadow: .01rem .01rem .5rem lightseagreen;
+}
+
+
+.like-wrapper div {
+    font-family: "Oxanium";
+}
+
+.like-wrapper {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1;
+    align-content: space-around;
+    margin-top: 3rem;
+    align-items: center;
+    color: lightseagreen;
+    height: 10rem;
+}
+
+.question-item-box {
+    height: 10rem;
+    border: .1rem solid lightslategray;
+    background-color: rgba(0, 0, 0, 0.061);
+    display: flex;
+    flex-direction: row;
+    flex: 0 0 65rem;
+    justify-content: space-evenly;
+    transition: all .3s;
+    cursor: pointer;
+}
+
+.question-item-box:hover {
+    transform: translate(0rem, -.6rem);
+    background-color: rgba(119, 136, 153, 0.479);
+}
+
+.question-item-box:active {
+    transform: translate(0rem, 2rem);
+}
+
+.author-wrapper {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1;
+    align-items: center;
+    align-content: space-around;
+    justify-content: center;
+    margin: .1rem;
+}
+
+.author-image-wrapper {
+    width: 4rem;
+    height: 4rem;
+    background-color: rgba(32, 178, 171, 0.253);
+    border-radius: 2rem;
+    margin-left: .4rem;
+}
+
+.author-image-wrapper img {
+    height: 100%;
+    width: 100%;
+    opacity: 1;
+    background-color: rgba(223, 248, 247, 0.473);
+    border-radius: 2rem;
+}
+
+.author-name {
+    font-family: "Oxanium";
+    font-size: 1rem;
+    color: lightseagreen;
+}
+
+.author-profession {
+    font-family: "Oxanium";
+    font-size: .7rem;
+    color: lightseagreen;
+}
+
+.question-wrapper {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1;
+    align-items: center;
+    justify-content: center;
+    margin: .5rem;
+}
+
+.question-wrapper p {
+    font-family: "Oxanium";
+    font-size: 1.2rem;
+    color: lightseagreen;
+    text-decoration: underline;
+}
+
+.question-wrapper small {
+    color: lightslategray;
+}
+
+
+@media(max-width: 1100px) {
+    .question-item-box {
+        height: 10rem;
+        flex: 0 0 50rem;
+    }
+}
+
+@media(max-width: 834px) {
+    .question-item-box {
+        height: 10rem;
+        flex: 0 0 35rem;
+    }
+}
+
+@media(max-width: 585px) {
+    .question-item-box {
+        height: 10rem;
+        flex: 0 0 25rem;
+    }
+}
+
+@media(max-width: 420px) {
+    .question-item-box {
+        height: 10rem;
+        flex: 0 0 20rem;
+    }
+}
+

@@ -1,0 +1,116 @@
+.category-title {
+    text-align: center;
+    color: rgb(105, 179, 179);
+    font-family: "Oxanium";
+    letter-spacing: .2rem;
+    margin-top: 4rem;
+}
+
+.category-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex: 1 1;
+    justify-content: space-evenly;
+    margin-top: 3.5rem;
+}
+
+.category-box-wrapper {
+    display: flex;
+    box-shadow: .01rem .01rem .5rem black;
+    flex-direction: column;
+    flex: 1 1;
+    width: 30rem;
+    height: 30rem;
+    justify-content: space-between;
+    align-items: center;
+    transition: all .2s;
+}
+
+.category-box-wrapper:hover {
+    transform: translate(-.1rem, -2rem);
+}
+
+.btn-outline-slate {
+    color: lightslategray;
+    border: .1rem solid lightslategray;
+    background-color: transparent;
+    font-family: "Oxanium";
+    transition: all .3s;
+}
+
+.btn-outline-slate:focus,
+.btn-outline-slate:active {
+    border-color:#CCC;
+    background-color: rgba(32, 178, 171, 0.39);
+    outline:0;
+    -webkit-box-shadow:none;
+    box-shadow:none;
+} 
+
+.btn-outline-slate:hover {
+    color: black;
+    background-color: lightslategray;
+}
+
+.img-wrapper {
+    width: 20rem;
+    height: auto;
+    margin-top: .5rem;
+}
+
+.img-wrapper img {
+    width: 100%;
+}
+
+.category-box-wrapper h1 {
+    color: rgb(105, 179, 179);
+}
+
+.category-paragraph-wrapper {
+    width: 20rem;
+    color: lightslategray;
+}
+
+@media(max-width: 985px) {
+    
+    .category-box-wrapper {
+        width: 20rem;
+        height: 20rem;
+    }
+    
+    .img-wrapper {
+        width: 10rem;
+    }
+
+    .category-box-wrapper h1 {
+        color: rgb(105, 179, 179);
+        font-size: 1.8rem;
+    }
+    
+    .category-paragraph-wrapper {
+        width: 17rem;
+    }
+    .category-paragraph-wrapper p {
+        font-size: .9rem;
+    }
+}
+
+@media(max-width: 654px) {
+    .category-wrapper {
+        flex-direction: column;
+        align-items: center;
+        align-content: space-around;
+        margin-top: .5rem;
+    }
+
+    .category-box-wrapper:nth-child(1) {
+        margin: 1rem 0rem;
+    }
+}
+
+@media(max-width: 450px) {
+    .category-title {
+        font-size: 2rem;
+        letter-spacing: 0rem;
+    }
+}

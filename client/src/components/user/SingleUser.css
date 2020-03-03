@@ -1,0 +1,110 @@
+.single-user-wrapper {
+    height: 20rem;
+    width: 60rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    justify-items: center;
+    align-items: center;
+    margin: 0rem auto;
+    box-shadow: .01rem .01rem .5rem lightseagreen;
+}
+
+.single-user-img-wrapper {
+    height: 15rem;
+    width: 15rem;
+}
+
+.single-user-info-wrapper {
+    width: 20rem;
+    height: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: .01rem .01rem .5rem black;
+}
+
+.single-user-img-wrapper img {
+    height: 100%;
+    width: 100%;
+    box-shadow: .01rem .01rem .5rem black;
+    border-radius: .5rem;
+}
+
+.single-user-info-wrapper h2 {
+    color: lightslategrey;
+    font-size: 1.3rem;
+    font-family: "Oxanium";
+}
+
+.single-user-info-wrapper p {
+    color: lightslategray;
+    font-size: .8rem;
+    font-family: "Oxanium";
+}
+
+.single-user-name {
+    margin: 0rem auto;
+    color: aquamarine;
+    font-family: "Oxanium";
+    text-decoration: underline;
+}
+
+@media(max-width: 1000px) {
+    .single-user-wrapper {
+        width: 45rem;
+    }
+}
+
+@media(max-width: 730px) {
+    .single-user-wrapper {
+        width: 30rem;
+        height: 15rem;
+    }
+
+    .single-user-img-wrapper {
+        height: 10rem;
+        width: 10rem;
+    }
+    
+    .single-user-info-wrapper {
+        width: 15rem;
+        height: 5rem;
+    }
+    
+    .single-user-info-wrapper h2 {
+        font-size: 1rem;
+    }
+    
+    .single-user-info-wrapper p {
+        font-size: .6rem;
+    }
+    
+}
+
+@media(max-width: 500px) {
+    .single-user-wrapper {
+        width: 20rem;
+        height: 15rem;
+    }
+
+    .single-user-img-wrapper {
+        height: 7rem;
+        width: 7rem;
+    }
+    
+    .single-user-info-wrapper {
+        width: 10rem;
+        height: 5rem;
+    }
+    
+    .single-user-info-wrapper h2 {
+        font-size: .9rem;
+    }
+    
+    .single-user-info-wrapper p {
+        font-size: .5rem;
+    }
+    
+}

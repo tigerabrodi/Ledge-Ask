@@ -1,0 +1,68 @@
+.dashboard-image {
+    height: 15rem;
+    width: 14.5rem;
+    background-color: rgba(32, 178, 171, 0.479);
+    border-radius: 1.5rem;
+}
+
+.image-upload-form {
+    margin-top: 1rem;
+    transition: all .35s;
+    cursor: pointer;
+    outline: none;
+}
+
+.image-upload-form:active {
+    outline: none;
+}
+
+.custom-file-label {
+    background-color: rgba(0, 139, 139, 0.418);
+    box-shadow: .01rem .01rem .5rem darkcyan;
+    color: black;
+    font-family: "Oxanium";
+    border: .1rem solid black;
+    cursor: pointer;
+}
+
+.custom-file-label:active {
+    transform: scale(1.15, 1.15);
+}
+
+.image-upload-form:hover {
+    transform: translate(0rem, -.5rem);
+}
+
+.input-group {
+    cursor: pointer;
+}
+
+.dashboard-name {
+    color: lightseagreen;
+    font-family: "Oxanium";
+    font-size: 1.6rem;
+} 
+
+.dashboard-profession {
+    color: lightseagreen;
+    font-family: "Oxanium";
+    font-size: 1.2rem;
+}
+
+.dashboard-slate {
+    border: none;
+
+}
+
+.dashboard-slate:hover {
+    background-color: transparent;
+    color: lightslategray;
+}
+
+.dashboard-questions-title {
+    color: lightskyblue;
+    font-family: "Oxanium";
+    font-size: 1.5rem;
+    text-decoration: underline;
+    margin-top: 1rem;
+}

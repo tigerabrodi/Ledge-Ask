@@ -1,0 +1,206 @@
+.single-question-wrapper {
+    height: 23rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0rem;
+    padding: 0rem;
+    background-color: rgba(47, 79, 79, 0.28);
+}
+
+.single-question-author-wrapper {
+    width: 17rem;
+    height: 19rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: space-around;
+}
+
+.single-question-content {
+    width: 28rem;
+    height: 19rem;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.single-question-category-wrapper {
+    width: 17rem;
+    height: 19rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.single-question-author-img {
+    width: 5rem;
+    height: 5rem;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.single-question-author-img:hover {
+    transform: translate(0rem, -.6rem);
+    box-shadow: .01rem .01rem .5rem lightseagreen;
+}
+
+.single-question-author-img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 1.7rem;
+    background-color: lightslategray;
+}
+
+.single-question-author-wrapper h3 {
+    font-family: "Oxanium";
+    font-size: 1.4rem;
+    color: lightseagreen;
+}
+
+.single-question-author-wrapper p {
+    font-family: "Oxanium";
+    font-size: .6rem;
+    color: darkcyan;
+}
+
+.single-question-content h2 {
+    font-family: "Oxanium";
+    font-size: 2rem;
+    color: lightslategray;
+    text-decoration: underline;
+}
+
+.single-question-content p {
+    font-family: "Oxanium";
+    font-size: 1.4rem;
+    color: lightslategray;
+}
+
+
+.single-question-category-wrapper h4 {
+    font-family: "Oxanium";
+    font-size: 1.3rem;
+    color: lightsteelblue;
+}
+
+.answer-big-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.add-answer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: .4rem;
+}
+
+.add-answer button {
+    margin-top: .6rem;
+}
+
+.single-question-buttons-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.single-question-buttons-wrapper Link, .single-question-buttons-wrapper button {
+    margin: 0rem .1rem;
+}
+
+@media(max-width: 1000px) {
+    .single-question-author-wrapper {
+        width: 14rem;
+        height: 16rem;
+    }
+    
+    .single-question-content {
+        width: 22rem;
+        height: 19rem;
+    }
+    
+    .single-question-category-wrapper {
+        width: 14rem;
+        height: 16rem;
+    }
+    
+    .single-question-author-img {
+        width: 4rem;
+        height: 4rem;
+    }
+    
+    .single-question-author-wrapper h3 {
+        font-size: 1rem;
+    }
+    
+    .single-question-author-wrapper p {
+        font-size: .5rem;
+    }
+    
+    .single-question-content h2 {
+        font-size: 1.5rem;
+    }
+    
+    .single-question-content p {
+        font-size: 1rem;
+    }
+    
+    
+    .single-question-category-wrapper h4 {
+        font-size: 1rem;
+    }
+}
+
+@media(max-width: 700px) {
+    .single-question-author-wrapper {
+        width: 8rem;
+        height: 12rem;
+    }
+    
+    .single-question-content {
+        width: 16rem;
+        height: 12rem;
+    }
+    
+    .single-question-category-wrapper {
+        width: 8rem;
+        height: 12rem;
+    }
+    
+    .single-question-author-img {
+        width: 3rem;
+        height: 3rem;
+    }
+    
+    .single-question-author-wrapper h3 {
+        font-size: .8rem;
+    }
+    
+    .single-question-author-wrapper p {
+        font-size: .5rem;
+    }
+    
+    .single-question-content h2 {
+        font-size: 1.2rem;
+    }
+    
+    .single-question-content p {
+        font-size: .8rem;
+    }
+    
+    .single-question-category-wrapper h4 {
+        font-size: 1rem;
+    }
+}

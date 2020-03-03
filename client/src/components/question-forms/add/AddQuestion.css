@@ -1,0 +1,16 @@
+.dropdown-menu {
+    background-color: rgba(0, 139, 139, 0.596);
+}
+
+.dropdown-item {
+    color: lightsteelblue;
+    font-family: "Oxanium";
+    font-size: 1.2rem;
+    transition: all .3s;
+    cursor: pointer;
+}
+
+.dropdown-item:hover {
+    transform: scale(1.1, 1.1);
+
+}
