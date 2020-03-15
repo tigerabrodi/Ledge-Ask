@@ -48,5 +48,7 @@ This project is licensed under the MIT License
 - Working with Redux
 - Using Multer for image upload
 - Deploying on Heroku
+- Validation
+- Pagination
 - Working with express
 - Splitting the code into Routes and Controllers, aswell as mounting them in server.js
